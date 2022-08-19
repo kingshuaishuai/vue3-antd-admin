@@ -33,5 +33,7 @@ module.exports = {
     body: '请输入详细描述(可选)',
     footer: '请输入要关闭的Issue(可选)',
     confirmCommit: '请确认是否使用以上信息提交(y/n)'
-  }
+  },
+  selectLimit: 100,
+  scopes: []
 }
