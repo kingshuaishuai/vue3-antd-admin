@@ -35,5 +35,4 @@ module.exports = {
     confirmCommit: '请确认是否使用以上信息提交(y/n)'
   },
   selectLimit: 100,
-  scopes: []
 }
