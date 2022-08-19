@@ -3,6 +3,11 @@ module.exports = {
   types: [
     { value: 'feat', name: 'feat:     新功能' },
     { value: 'fix', name: 'fix:      bug修复' },
+    {
+      value: 'chore',
+      name: 'chore:    修改构建过程或辅助工具',
+    },
+    { value: 'wip', name: 'wip:      正在进行' },
     { value: 'docs', name: 'docs:     文档更新' },
     {
       value: 'style',
@@ -17,12 +22,7 @@ module.exports = {
       name: 'perf:     性能优化',
     },
     { value: 'test', name: 'test:     增加测试' },
-    {
-      value: 'chore',
-      name: 'chore:    修改构建过程或辅助工具',
-    },
     { value: 'revert', name: 'revert:   回退' },
-    { value: 'WIP', name: 'WIP:      正在进行' },
     { value: 'build', name: 'build:      打包' },
   ],
   // 步骤
