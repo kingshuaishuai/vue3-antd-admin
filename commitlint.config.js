@@ -21,5 +21,5 @@ module.exports = {
       ],
     ],
   },
-  'subject-case': [0],
+  'subject-case': [ 0 ],
 };

@@ -19,6 +19,7 @@ module.exports = {
   ],
   'rules': {
     'vue/no-multiple-template-root': 0,
-    'object-curly-spacing': ['error', 'always'],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'array-bracket-spacing': [ 'error', 'always' ],
   },
 };
