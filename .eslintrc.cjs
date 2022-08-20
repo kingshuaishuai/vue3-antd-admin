@@ -5,7 +5,7 @@ module.exports = {
     'node': true,
   },
   'extends': [
-    'plugin:vue/essential',
+    'plugin:vue/vue3-recommended',
     'google',
   ],
   'parserOptions': {
@@ -19,5 +19,6 @@ module.exports = {
   ],
   'rules': {
     'vue/no-multiple-template-root': 0,
+    'object-curly-spacing': ['error', 'always'],
   },
 };
